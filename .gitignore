@@ -1,0 +1,56 @@
+# Ignorar la configuración de WebStorm
+.idea/
+
+# Ignorar los archivos de node_modules
+node_modules/
+
+# Ignorar los archivos de registro
+*.log
+
+# Ignorar los archivos de compilación
+dist/
+
+# Ignorar los archivos de configuración de ambiente
+.env
+
+# Ignorar los archivos de caché
+*.cache
+
+# Ignorar los archivos de construcción
+build/
+
+# Ignorar los archivos de depuración
+*.debug
+
+# Ignorar los archivos de paquetes
+*.pkg
+
+# Ignorar los archivos de copia de seguridad
+*.bak
+
+# Ignorar los archivos temporales
+*.tmp
+
+# Ignorar los archivos de volcado de memoria
+*.dmp
+
+# Ignorar los archivos de volcado de núcleo
+core
+
+# Ignorar los archivos de volcado de pila
+*.stackdump
+
+# Ignorar los archivos de volcado de pila
+*.user
+
+# Ignorar los archivos de volcado de pila
+*.suo
+
+# Ignorar los archivos de volcado de pila
+*.ncb
+
+# Ignorar los archivos de volcado de pila
+*.sdf
+
+# Ignorar los archivos de volcado de pila
+*.sln.docstates
