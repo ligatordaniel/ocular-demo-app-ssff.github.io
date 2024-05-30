@@ -7,5 +7,17 @@
 </head>
 <body>
 <h1>Hello, world!</h1>
+<!-- Inserte entre las etiquetas body en cada página de su sitio -->
+<script>
+  (() => {
+    const ocularSolutionScript = document.createElement('script')
+    ocularSolutionScript.setAttribute('type', 'text/javascript')
+    ocularSolutionScript.setAttribute('name', 'ocular-solution-widget')
+    ocularSolutionScript.setAttribute('data-modules', 'call')
+    ocularSolutionScript.setAttribute('src', 'https://widget.ocularsolution.com/service/ocular/js/ocular-widget.js?v=1.1.1')
+    ocularSolutionScript.setAttribute('code', '1745559ab2b7a75bdbbd641cf09e17f07h6dmfosAHndCKMu8GRiLEJVJkzqIQe9HBtIOeSag49rR1d2s08a1fXy3db')
+    document.body.appendChild(ocularSolutionScript)
+  })()
+</script>
 </body>
 </html>
